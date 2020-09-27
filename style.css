@@ -1,0 +1,81 @@
+h1{
+    color:#1CD2B5;
+}
+
+.intro{
+     
+    display: flex;
+    justify-content:space-between;
+    margin: 50px;
+    padding: 30px;
+    
+} 
+.intro h1{
+    margin-left: 35%;
+    
+}
+body{
+    background-color: #808080;
+}
+
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+
+}   
+.info{
+    color: #ffffff;
+    
+}
+p,h1,h2,h4{
+    text-align-last: center;
+    color:#1CD2B5;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.footer *{
+    margin: 20px;
+}
+
+
+.item{
+    margin: 40;
+    padding: 30;
+    
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.certificate{
+    display: flex;
+    margin-top: 20px;
+    margin: 40;
+    padding: 30;
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.certificate *{
+    margin: 30px;
+}
+.task{
+    display: flex;
+    justify-content: center;
+
+}
